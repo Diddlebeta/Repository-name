@@ -1,0 +1,44 @@
+body{
+    background-color: cadetblue;
+}
+
+.container{
+    background-color: rgb(255, 13, 0);
+    margin: 0 auto;
+
+}
+
+.nav {
+    list-style:none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 70px;
+}
+
+.beta {
+    text-align:center;
+    background-color:crimson;
+}
+
+#span1 {
+    color:rgb(71, 11, 159);
+}
+
+#span2 {
+    color:rgb(102, 14, 14);
+}
+
+#span3 {
+    color:rgb(43, 226, 125);
+}
+
+#span4 {
+    color:rgb(244, 222, 28);
+}
+
+#span5 {
+    font-size: 90px;
+}

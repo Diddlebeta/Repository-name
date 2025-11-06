@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddy Beta | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">   
+    <script type="text/javascript" src="js/script.js"></script> 
+</head>
+<body>
+    <h1>FINALLY - TOOK U A WHILE (We're gonna learn the jedi ways)</h1>
+    <img src="images/teach-you-yoda.gif">
+    <h2>How do we do onclick events for revenge of the sith? (wanna watch?) - Mr. Barrager</h2>
+    <p>Click <a href="https://www.youtube.com/watch?v=yDpx4XCM_qQ" target="_blank" onclick="alert('BETA NO!! UR GONNA LEAVE MY WEBSITE!- DONT LEAAVE M-?!')">HERE</a>to watch revenge of the sithhhhhhhhhhhh</p>
+
+    <h2>did u know we can be smart betas😭🔥</h2>
+    <p> What is 1+1 </p>
+    <button onclick="document.getElementById('add').innerHTML=1+2">CLCK ME FOR ANSWER BETAA</button>
+    <p id="add"></p>
+
+    <h2>LEMME GET FANCYYYY</h2>
+    <button onclick="document.getElementById('change-text'). 
+    innerHTML='U DID IT U FANCYYYY BETAA!!'">FANCYYYY BUTTONN</button>
+    <!-- Finish styling font for this line next class, Ms. H needs to remember how to put it inline -->
+    <p id="change-text">This text will change when we click da button... SO I CAN BE FANCYYYY</p>
+
+    <h2>We can also be diVVAS and get the time and date on DIS PAAGE</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date()
+    ">CLICK ME TO GET SOME INFOOOOOO!</button>"
+    <p id="date"></p>
+
+    <h2>WHATS THE FUNCTIOOONNN?? *Insert Drake noises</h2>
+    <button onclick="pFun()">CLICK ME TO GET A FUNCTIONNNN!!</button>
+    <p id="p-fun"></p>
+    <img src="images/INDIAN BETAA.jpg" id="kendric">
+
+    <h2>How do we give back user data?</h2>
+    <button onclick="askName()">Click here to enter you namee</button>
+    <p id="ask-name"></p>
+
+    <h2>EXTERNAL DOCUMENTS ARE SMART BETASSS</h2>
+    <Button onclick="askQuestion()">Click here to ask a hard question</Button>
+    <p id="question"></p>
+
+    <script>
+        alert("HELLO BETAS - YOU HAVE MALWARE🫵🤣");
+        alert("Click me for walking dog videos 🐕");
+        alert("Click me for walking cat videos 🙀");
+       alert("Click me for FLORIDA videos 🐊🐊");
+        alert("Click me for Russian videos 🍺 ");
+        alert("Cick me for... \nAMERICAAA🔫✈️");
+
+        function pFun() {
+            var p = document.getElementById('p-fun');
+            p.innerHTML = 'YOU JUST DID A FUNCTIOONNNN!!!!';
+            p.style.fontsize = '30px';
+            p.style.color = 'red';
+        }
+
+        function askName() {
+            var nameReturn = document.getElementById('ask-name');
+            var name = prompt('ENTER YOUR NAME IN THE BOXXX BELOWWWWWW');
+            if (name == '') {
+                alert('please try again beta');
+            } else {
+                nameReturn.innerHTML = 'hello ' + name + '!GOOD DAY SIRR!';
+            }
+        }
+    </script>
+    <audio aria-multiselectable="true"
+</body>
+</html>
