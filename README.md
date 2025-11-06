@@ -1,2 +1,10 @@
 # Repository-name
 This is a collection of web stuff I made for my school class (WEB2025)
+
+<h1>Welcome to my portfolio 😁😁😁</h1>
+<ul>
+  <li><a href="html_demo" target="_blank">HTML Demo</a>/li>
+    <li><a href="css_demo" target="_blank">CSS Demo</a>/li>
+      <li><a href="js_demo" target="_blank">JS Demo</a>/li>
+        <li><a href="final" target="_blank">Final</a>/li>
+</ul>
